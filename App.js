@@ -1,4 +1,10 @@
-const parent = React.createElement("div", {id: "parent"}, React.createElement("div", {id: "child"}, React.createElement("h1", {id: "head"}, "This heading is inside nested divs")));
+import React from "react";
+import ReactDOM  from "react-dom/client";
+
+const parent = React.createElement("div", {id: "parent"}, 
+React.createElement("div", {id: "child"}, 
+React.createElement("h1", {id: "head"}, "This heading is inside nested divs")));
+
 const rootDom = ReactDOM.createRoot(document.getElementById("root"));
 
 
