@@ -50,9 +50,26 @@ remove CDN links now
 now, import React and ReactDOM from node_modules and alter the script tag with type = "module"
 
 npx parcel index.html -> generates dev build and put it in dist folder at local host 1234 -> he who access the local host 1234 can see the rendered page of that build
-npx parcel build index.html -> generates prod build (bundle, compress, minify, cache, tree shake and it's ready) and put it in dist folder at the remote server -> he who access the server can have a great UX. 
+npx parcel build index.html -> generates prod build files (bundle, compress, minify, cache, tree shake and it's ready) and put it in dist folder at the remote server -> he who access the server can have a great UX. 
 
 browsersList to be followed up.
+
+Episode: 3 (Babel, JSX)
+Making command scipt changes in package.json
+
+Babel (transpiler/JS compiler) converts JSX (more readable) to ES6 compatible JS languague
+JSX is HTML like language but not similar
+
+JSX -> React.createElement (JS object) -> rendered on browser as HTML element by ES6 engine
+
+React FC:
+A JS function that returns a piece of JSX (React Elements as an object)
+This FC is rendered.
+
+important - JSX expressions must have one parent element.
+
+So all in all, at the EOD, it's all JSX. Nest as many JSX inside JSX as you wish, just make sure that there's only one parent element in JSX and things are properly initialised first.
+
 
 
 
