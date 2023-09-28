@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Let's see what does this package amount to in future",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest, maybe"
   },
   "repository": {
