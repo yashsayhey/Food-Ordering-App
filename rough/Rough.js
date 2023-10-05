@@ -1,6 +1,26 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
 
+
+/**
+ * AppLayout (Home Page)
+ *  -Header
+ *      -Logo
+ *      -User's Profile icon (login/signup)
+ *      -User's Profile drop down
+ *      -Search 
+ *      -Location detector
+ *  -Body
+ *      -Restaurant Card
+ *      -Filter Restaurants 
+ *      -Food Card
+ *      -Filter Foods
+ *  -Footer
+ *      -About
+ *      -Contact
+ *      -Social links
+ */
+
 /*
 parent is not an HTML tag/element. It's a JS object which is a react element.
 While it's rendering on DOM, it gets converted to HTML by engine and put on DOM using JS.
